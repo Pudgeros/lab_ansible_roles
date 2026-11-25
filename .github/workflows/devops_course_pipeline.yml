@@ -5,10 +5,10 @@ jobs:
   DevOps-Course-first-job:
     runs-on: ubuntu-latest
     steps:
-- run: echo "I run my first Github Actions"
-- name: Show uptime
+      - run: echo "I run my first Github Actions"
+      - name: Show uptime
         run: uptime
-- name: Where am I?
+      - name: Where am I?
         run: pwd
-- name: Who am I?
+      - name: Who am I?
         run: whoami
